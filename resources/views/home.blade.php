@@ -5,62 +5,74 @@
         <div class="auto-container">
             <div class="services-outer">
                 <div class="clearfix">
-
+                    
                     <!--Services Block-->
-                    <div class="services-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="services-block col-md-3 col-sm-6 col-xs-12">
                         <div class="inner-box">
                             <div class="icon-box">
                                 <span class="icon flaticon-teacher"></span>
                             </div>
                             <h3>University Applications</h3>
-                            <div class="text">We guide you through the entire application, ensuring you present the strongest possible case to institutions.</div>
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="icon-box">
                                         <span class="icon flaticon-teacher"></span>
                                     </div>
                                     <div class="text">We guide you through the entire application, ensuring you present the strongest possible case to prospective institutions.</div>
-                                    {{-- <a class="read-more" href="services-single.html">Read More</a> --}}
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!--Services Block-->
-                    <div class="services-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="services-block col-md-3 col-sm-6 col-xs-12">
                         <div class="inner-box">
                             <div class="icon-box">
                                 <span class="icon flaticon-file"></span>
                             </div>
                             <h3>Visa Procedures</h3>
-                            <div class="text">Our expert team will guide you through the visa application process, ensuring a smooth and efficient experience.</div>
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="icon-box">
-                                        <span class="icon flaticon-phone-call-1"></span>
+                                        <span class="icon flaticon-file"></span>
                                     </div>
                                     <div class="text">Our expert team will guide you through the visa application process, ensuring a smooth and efficient experience.</div>
-                                    {{-- <a class="read-more" href="services-single.html">Read More</a> --}}
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!--Services Block-->
-                    <div class="services-block col-md-4 col-sm-6 col-xs-12">
+                    <div class="services-block col-md-3 col-sm-6 col-xs-12">
                         <div class="inner-box">
                             <div class="icon-box">
                                 <span class="icon flaticon-transport"></span>
                             </div>
                             <h3>Airport Pickups</h3>
-                            <div class="text">We provide a warm welcome to your new country, ensuring a comfortable arrival with our airport pickup services.</div>
                             <div class="overlay-box">
                                 <div class="overlay-inner">
                                     <div class="icon-box">
-                                        <span class="icon flaticon-honeycomb"></span>
+                                        <span class="icon flaticon-transport"></span>
                                     </div>
                                     <div class="text">We provide a warm welcome to your new country, ensuring a comfortable arrival with our airport pickup services.</div>
-                                    {{-- <a class="read-more" href="services-single.html">Read More</a> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Services Block-->
+                    <div class="services-block col-md-3 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <span class="icon flaticon-home"></span>
+                            </div>
+                            <h3>Settling In</h3>
+                            <div class="overlay-box">
+                                <div class="overlay-inner">
+                                    <div class="icon-box">
+                                        <span class="icon flaticon-home"></span>
+                                    </div>
+                                    <div class="text">We will ensure students get suitable accommodation according to their budget and preference.</div>
                                 </div>
                             </div>
                         </div>
@@ -71,46 +83,102 @@
         </div>
     </section>
     <!--End Featured Section-->
-
+    
     <!--About Section-->
     <section class="about-section">
         <div class="auto-container">
-            <div class="row clearfix">
-                <!--Column-->
-                <div class="title-column col-md-4 col-sm-12 col-xs-12">
-                    <h2>About SyllaEdGlobal</h2>
-                    <div class="text">
-                        <p>SyllaGlobalEd Services is a premier education consulting firm dedicated to facilitating the dreams of students aspiring to pursue higher education abroad. Established with a commitment to providing comprehensive support, we specialize in guiding students through every step of the process – from university applications to visa procedures, airport pickups, and accommodation arrangements. </p>
-                        {{-- <p>We strive to build a relationship of trust with every client, for the long-term. 70% of our work is for clients that we have served for over 10 years. We are focused on developing education, publications, events, research and analysis Success field through market education.</p> --}}
-                    </div>
-                    <a href="about.html" class="theme-btn btn-style-three">READ MORE</a>
+            <!-- Main About Header -->
+            <div class="about-header text-center">
+                <h2 class="section-title">ABOUT US</h2>
+                <div class="about-description">
+                    <p>SyllaGlobalEd Services is a premier education consulting firm dedicated to facilitating the dreams of students aspiring to pursue higher education abroad.</p>
                 </div>
-                <!--Content Column-->
-                <div class="content-column col-md-8 col-sm-12 col-xs-12">
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <!--Image Column-->
-                            <div class="image-column col-md-6 col-sm-6 col-xs-12">
-                                <div class="image">
-                                    <img src="{{ asset('images/Brandmark.png') }}" alt="" />
-                                    <div class="image-content">
-                                        <div class="content">
-                                            <div class="text">Transform Your Future with SyllaGlobalEd Services. The Quality and Uniqueness of its Services and the wide variety of Choices...</div>
-                                        </div>
+            </div>
+            
+            <!-- Mission, Vision, Core Values Section -->
+            <div class="row clearfix mvv-section">
+                <!-- Mission -->
+                <div class="col-md-4 col-sm-12 col-xs-12 mvv-box">
+                    <div class="mvv-inner">
+                        <h3>MISSION</h3>
+                        <p>To empower students in their journey to study abroad by providing personalized support, simplifying the process, and ensuring a seamless experience to achieve academic success and career goals.</p>
+                    </div>
+                </div>
+                
+                <!-- Vision -->
+                <div class="col-md-4 col-sm-12 col-xs-12 mvv-box">
+                    <div class="mvv-inner">
+                        <h3>VISION</h3>
+                        <p>To be the leading global education consultancy by empowering students to achieve their academic and career aspirations through personalized guidance and seamless support.</p>
+                    </div>
+                </div>
+                
+                <!-- Core Values -->
+                <div class="col-md-4 col-sm-12 col-xs-12 mvv-box">
+                    <div class="mvv-inner">
+                        <h3>CORE VALUES</h3>
+                        <p>Integrity, transparency, and client-centricity are the core values of our organization, guiding every decision we make. We are committed to fostering trust and building strong, lasting relationships with our clients.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Why Choose Us Section -->
+            <div class="why-choose-section">
+                <h2 class="section-title blue-bg text-center">WHY CHOOSE US?</h2>
+                
+                <div class="row clearfix choose-us-row">
+                    <!-- Trustworthy Institution -->
+                    <div class="col-md-4 col-sm-12 col-xs-12 choose-box">
+                        <div class="choose-inner text-center">
+                            <h4>Trustworthy Institution</h4>
+                            <!-- Hover Content -->
+                            <div class="hover-stats">
+                                <div class="single-stat">
+                                    <div class="stat-icon">
+                                        <span class="icon flaticon-business-3"></span>
                                     </div>
+                                    <div class="stat-number">50+</div>
+                                    <div class="stat-label">Number of Applications</div>
                                 </div>
                             </div>
-                            <!--Section Content-->
-                            <div class="section-content col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner">
-                                    <h2>Why Choose SyllaEdGlobal ?</h2>
-                                    <div class="text">We provide a complete range of services to support clients throughout the entire process, from their application to their arrival in Malaysia for studies.</div>
-                                    <ul class="list-style-one">
-                                        <li>Personalized Approach</li>
-                                        <li>Experienced Team</li>
-                                        <li>Global Network</li>
-                                        <li>Add more</li>
-                                    </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Divider for desktop -->
+                    <!-- <div class="vertical-divider first-divider hidden-sm hidden-xs"></div> -->
+                    
+                    <!-- Experienced Team -->
+                    <div class="col-md-4 col-sm-12 col-xs-12 choose-box">
+                        <div class="choose-inner text-center">
+                            <h4>Experienced Team</h4>
+                            <!-- Hover Content -->
+                            <div class="hover-stats">
+                                <div class="single-stat">
+                                    <div class="stat-icon">
+                                        <span class="icon flaticon-prize-badge-with-star-and-ribbon"></span>
+                                    </div>
+                                    <div class="stat-number">3</div>
+                                    <div class="stat-label">Awards Won</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Divider for desktop -->
+                    <!-- <div class="vertical-divider second-divider hidden-sm hidden-xs"></div> -->
+                    
+                    <!-- Client-Centricity -->
+                    <div class="col-md-4 col-sm-12 col-xs-12 choose-box">
+                        <div class="choose-inner text-center">
+                            <h4>Client-Centricity</h4>
+                            <!-- Hover Content -->
+                            <div class="hover-stats">
+                                <div class="single-stat">
+                                    <div class="stat-icon">
+                                        <span class="icon flaticon-smiling-emoticon-square-face"></span>
+                                    </div>
+                                    <div class="stat-number">100%</div>
+                                    <div class="stat-label">Satisfied customers</div>
                                 </div>
                             </div>
                         </div>
@@ -123,11 +191,19 @@
 
     <!--Clients Section-->
     <section class="clients-section top-border">
-        <div class="auto-container">
-            <!--Sec Title-->
-            <div class="sec-title">
-                <h2>Our Partners</h2>
+    <div class="auto-container">
+        <!--Sec Title-->
+        <div class="sec-title">
+            <h2>Our Partners</h2>
+        </div>
+        
+        <!-- Carousel Container with Navigation -->
+        <div class="carousel-container" style="position: relative;">
+            <!-- Left Arrow -->
+            <div class="carousel-nav prev-btn" style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%); z-index: 10; cursor: pointer; background: rgba(0,0,0,0.5); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: background 0.3s ease;" onmouseover="this.style.background='rgba(0,0,0,0.8)'" onmouseout="this.style.background='rgba(0,0,0,0.5)'">
+                &#8249;
             </div>
+            
             <!--Sponsors Carousel-->
             <ul class="sponsors-carousel owl-carousel owl-theme">
                 <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/iium-logo.png" alt=""></a></figure></li>
@@ -144,8 +220,14 @@
                 <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/sunway.png" alt=""></a></figure></li>
                 <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/unikl.jpg" alt=""></a></figure></li>
             </ul>
+            
+            <!-- Right Arrow -->
+            <div class="carousel-nav next-btn" style="position: absolute; right: -50px; top: 50%; transform: translateY(-50%); z-index: 10; cursor: pointer; background: rgba(0,0,0,0.5); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; transition: background 0.3s ease;" onmouseover="this.style.background='rgba(0,0,0,0.8)'" onmouseout="this.style.background='rgba(0,0,0,0.5)'">
+                &#8250;
+            </div>
         </div>
-    </section>
+    </div>
+</section>
     <!--End Clients Section-->
 
     <!--Featured Section Two-->
@@ -227,26 +309,23 @@
     <!--Counter Section-->
     <section class="counter-section" style="background-image:url({{ asset('images/background/2.jpg') }});">
         <div class="auto-container">
-            <!--Sec Title-->
             <div class="sec-title light centered">
                 <h2>Our Achievements</h2>
             </div>
 
             <div class="row clearfix">
-                <!--Column-->
                 <div class="column count-box col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="inner">
                         <div class="content">
                             <div class="icon-box"><span class="icon flaticon-business-3"></span></div>
                             <div class="count-outer">
-                                <span class="count-text" data-speed="2500" data-stop="50">0</span>
+                                <span class="count-text" data-speed="2500" data-stop="100">0</span>
                             </div>
                             <div class="counter-title">Number of Applications</div>
                         </div>
                     </div>
                 </div>
 
-                <!--Column-->
                 <div class="column count-box col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="inner">
                         <div class="content">
@@ -259,7 +338,6 @@
                     </div>
                 </div>
 
-                <!--Column-->
                 <div class="column count-box col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="inner">
                         <div class="content">
@@ -267,12 +345,11 @@
                             <div class="count-outer">
                                 <span class="count-text" data-speed="2500" data-stop="3">0</span>
                             </div>
-                            <div class="counter-title">Awards Winning</div>
+                            <div class="counter-title">Awards Won</div>
                         </div>
                     </div>
                 </div>
 
-                <!--Column-->
                 <div class="column count-box col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="inner">
                         <div class="content">
@@ -291,9 +368,9 @@
     <!--End Counter Section-->
 
     <!--Call To Action-->
-    <section class="call-to-action">
-        <div class="auto-container">
-            <h2>Transform Your Future with SyllaGlobalEd Services. The Quality and Uniqueness of its Services and the wide variety of Choices...</h2>
+    <section class="call-to-action" style="padding: 30px 0; text-align: left !important;">
+        <div style="width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 0 0 30px !important; text-align: left !important;">
+            <h2 style="font-style: italic; font-size: 29px; text-align: left !important; width: 100% !important; margin: 0 !important; padding: 0 !important; display: block !important; white-space: nowrap !important;">Transform Your Future with SyllaGlobalEd Services. The Quality and Uniqueness of its Services and the wide variety of Choices.</h2>
         </div>
     </section>
     <!--End Call To Action-->
@@ -328,7 +405,7 @@
                 <div class="news-block col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{ asset('images/articles/kl.jpg') }}" style="height: 278px" alt="" />
+                            <img src="{{ asset('images/articles/students.png') }}" style="height: 278px" alt="" />
                         </div>
                         <div class="lower-content">
                             <div class="post-date">November 13, 2024</div>
@@ -343,7 +420,7 @@
                 <div class="news-block col-md-4 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="image">
-                            <img src="{{ asset('images/articles/stud.jpg') }}" style="height: 278px" alt="" />
+                            <img src="{{ asset('images/articles/studs.png') }}" style="height: 278px" alt="" />
                         </div>
                         <div class="lower-content">
                             <div class="post-date">June 15, 2017</div>
@@ -360,131 +437,70 @@
     <!--End News Section-->
 
     <!--Testimonial Section-->
-    <section class="testimonial-section"
-        style="
-            background-image: url({{ asset('images/background/test_back.jpg') }});
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            width: 100%;
-            margin: 0;
-            padding: 50px 0;"
-    >
-        <div class="auto-container">
-            <div class="two-item-carousel owl-carousel owl-theme">
-
-                <!--Testimonial block-->
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <!--Image Column-->
-                            <div class="image-column col-md-5 col-sm-5 col-xs-12">
-                                <div class="image">
-                                    <img src="{{ asset('images/team/birame.jpg') }}" alt="" />
-                                    <div class="quote-icon"><span class="icon flaticon-double-quotes"></span></div>
-                                </div>
-                            </div>
-                            <!--Content Column-->
-                            <div class="content-column col-md-7 col-sm-7 col-xs-12">
-                                <h3>Birame Medoune Ndiaye</h3>
-                                <div class="location">Currently studying English in EMS</div>
-                                <div class="text" style="color: black">SyllaGlobalEd Services c'est choisir l'efficacité, la sûreté , l'honnêteté mais aussi et surtout choisir SyllaGlobalEd Services c'est entrée dans une famille ou chaque membre s'entraide et ce conseil. Je conseillerais donc SyllaGlobalEd Services et la Malaisie à quiconque cherche la perfection à court réduit.</div>
-                            </div>
-                        </div>
+    <section class="testimonial-section-modern">
+    <div class="auto-container">
+        <!-- Section Title -->
+        <div class="sec-title centered">
+            <h2>TESTIMONIALS</h2>
+            <p class="section-subtitle">Hear from our successful students who achieved their dreams with SyllaGlobalEd.</p>
+        </div>
+        
+        <!-- Testimonials Grid -->
+        <div class="testimonials-grid">
+            <!--Testimonial Card 1-->
+            <div class="testimonial-card">
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <img src="{{ asset('images/team/birame.jpg') }}" alt="Birame Medoune Ndiaye" />
+                    </div>
+                    <div class="quote-icon">❝❝</div>
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-text">Choosing SyllaGlobalEd Services means choosing efficiency, safety, and honesty — but above all, joining a supportive family. I highly recommend SyllaGlobalEd Services and Malaysia to anyone seeking excellence at a lower cost.</p>
+                    <div class="client-info">
+                        <h4 class="client-name">Birame Medoune Ndiaye</h4>
+                        <p class="client-position">Student in EMS</p>
                     </div>
                 </div>
+            </div>
 
-                <!--Testimonial block-->
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <!--Image Column-->
-                            <div class="image-column col-md-5 col-sm-5 col-xs-12">
-                                <div class="image">
-                                    <img src="{{ asset('images/team/billo.jpg') }}" alt="" />
-                                    <div class="quote-icon"><span class="icon flaticon-double-quotes"></span></div>
-                                </div>
-                            </div>
-                            <!--Content Column-->
-                            <div class="content-column col-md-7 col-sm-7 col-xs-12">
-                                <h3>Diallo Mamadou Billo</h3>
-                                <div class="location">Student in IIUM</div>
-                                <div class="text" style="color: black">Before starting my application procedure, SyllaGlobalEd Services helped me to have a good selection of Universities, but also to have a good idea of what I wanted to be in the future.This gave me a firm foundation to build my decision on.</div>
-                            </div>
-                        </div>
+            <!--Testimonial Card 2-->
+            <div class="testimonial-card">
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <img src="{{ asset('images/team/billo.jpg') }}" alt="Diallo Mamadou Billo" />
+                    </div>
+                    <div class="quote-icon">❝❝</div>
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-text">Before starting my application procedure, SyllaGlobalEd Services helped me to have a good selection of Universities, but also to have a good idea of what I wanted to be in the future. This gave me a firm foundation to build my decision on.</p>
+                    <div class="client-info">
+                        <h4 class="client-name">Diallo Mamadou Billo</h4>
+                        <p class="client-position">Student in IIUM</p>
                     </div>
                 </div>
+            </div>
 
-                <!--Testimonial block-->
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <!--Image Column-->
-                            <div class="image-column col-md-5 col-sm-5 col-xs-12">
-                                <div class="image">
-                                    <img src="{{ asset('images/team/naby.jpg') }}" alt="" />
-                                    <div class="quote-icon"><span class="icon flaticon-double-quotes"></span></div>
-                                </div>
-                            </div>
-                            <!--Content Column-->
-                            <div class="content-column col-md-7 col-sm-7 col-xs-12">
-                                <h3>Fofana Naby</h3>
-                                <div class="location">Student in IIUM</div>
-                                <div class="text" style="color: black">I found the right course at the International Islamic University Malaysia through SyllaGlobalEd Services. Their guidance and detailed options for universities and courses made my search effortless. My advice: know what you want to study and let SyllaGlobalEd help you find the best options—they save time and simplify the process.</div>
-                            </div>
-                        </div>
+            <!--Testimonial Card 3-->
+            <div class="testimonial-card">
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <img src="{{ asset('images/team/naby.jpg') }}" alt="Fofana Naby" />
+                    </div>
+                    <div class="quote-icon">❝❝</div>
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-text">I found the right course at the International Islamic University Malaysia through SyllaGlobalEd Services. Their guidance and detailed options for universities and courses made my search effortless. Let SyllaGlobalEd help you.</p>
+                    <div class="client-info">
+                        <h4 class="client-name">Fofana Naby</h4>
+                        <p class="client-position">Student in IIUM</p>
                     </div>
                 </div>
-
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!--End Testimonial Section-->
-
-    <!--Info Section-->
-    <section class="info-section">
-        <div class="auto-container">
-            <div class="inner-section">
-                <div class="row clearfix">
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-maps-and-flags"></span></div>
-                                <div class="title">Address : NEU Suites, Jalan Ampang,</div>
-                                <h2>KL 55000, Malaysia</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-phone-call"></span></div>
-                                <div class="title">Phone Number :</div>
-                                <h2>+60 17302 5968</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-12 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-chronometer-outline"></span></div>
-                                <div class="title">Opening Hours :</div>
-                                <h2>Mon - Fri: 8am - 5pm</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Info Section-->
 @endsection
 
 <script>
@@ -505,5 +521,35 @@
                 countText.textContent = current;
             }
         }, speed / stop);
+
+        if (typeof $ !== 'undefined' && $.fn.owlCarousel) {
+        var owl = $('.sponsors-carousel');
+        
+        // Initialize carousel if not already done
+        if (!owl.hasClass('owl-loaded')) {
+            owl.owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: { items: 2 },
+                    600: { items: 3 },
+                    1000: { items: 5 }
+                }
+            });
+        }
+        
+        // Custom navigation
+        $('.prev-btn').click(function() {
+            owl.trigger('prev.owl.carousel');
+        });
+        
+        $('.next-btn').click(function() {
+            owl.trigger('next.owl.carousel');
+        });
+    }
     });
 </script>

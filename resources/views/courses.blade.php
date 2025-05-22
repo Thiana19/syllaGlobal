@@ -358,47 +358,4 @@
             </div>
         </div>
     </section>
-
-    <section class="info-section">
-        <div class="auto-container">
-            <div class="inner-section">
-                <div class="row clearfix">
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-maps-and-flags"></span></div>
-                                <div class="title">Address : NEU Suites, Jalan Ampang,</div>
-                                <h2>KL 55000, Malaysia</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-phone-call"></span></div>
-                                <div class="title">Phone Number :</div>
-                                <h2>+60 17302 5968</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-12 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-chronometer-outline"></span></div>
-                                <div class="title">Opening Hours :</div>
-                                <h2>Mon - Fri: 8am - 5pm</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
 @endsection

@@ -1,97 +1,91 @@
-<!--Main Footer-->
 <footer class="main-footer">
-
-    <!--Widgets Section-->
-    <div class="widgets-section">
+    <div class="contact-section" style="background-color: #0a2642; padding: 40px 0;">
         <div class="auto-container">
             <div class="row clearfix">
+                <!-- Get in Touch Column -->
+                <div class="contact-info-column col-md-4 col-sm-12 col-xs-12">
+                    <h2 class="contact-title">Get in Touch</h2>
+                    <ul class="contact-info">
+                        <li>
+                            <span class="icon fa fa-clock-o"></span>
+                            <span class="text">Mon - Friday, 8am - 5pm</span>
+                        </li>
+                        <li>
+                            <span class="icon fa fa-envelope"></span>
+                            <span class="text">syllaglobaledservices24@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="icon fa fa-phone"></span>
+                            <span class="text">+60 17 302 5968</span>
+                        </li>
+                        <li>
+                            <span class="icon fa fa-map-marker"></span>
+                            <span class="text">NEU Suites, 55000 KL, MY</span>
+                        </li>
+                    </ul>
+                    <div class="social-links-footer" style="margin-top: 20px;">
+                        <h4 style="color: #fff; margin-bottom: 10px;">Follow Us</h4>
+                        <a href="http://facebook.com/share/pu55xiG3sM7mTgHG/?mibextid=LQQJ4d" style="color: #fff; margin-right: 15px; font-size: 18px;">
+                            <span class="fa fa-facebook-f"></span>
+                        </a>
+                        <a href="http://instagram.com/syllaglobaledservices?igsh=MTA5dzk4bWp6bmZvNA%3D%3D" style="color: #fff; margin-right: 15px; font-size: 18px;">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                        <a href="http://tiktok.com/@syllaglobaledservices24?_t=8n8VlfhakRW&_r=1" style="color: #fff; font-size: 18px;">
+                            <span class="fa fa-tiktok"></span>
+                        </a>
+                    </div>
+                    <div class="footer-logo-small" style="margin-top: 20px;">
+                        <img src="{{ asset('images/logo_footer.png') }}" alt="Logo" style="max-width: 200px;">
+                    </div>
+                </div>
 
-                <!--Footer Column-->
-                <div class="footer-column col-md-4 col-sm-5 col-xs-12">
-                    <!--Logo Widget-->
-                    <div class="footer-widget logo-widget">
-                        <div class="widget-content">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="{{ asset('images/logo-white.png') }}" alt="Logo" title="Logo" class="img-fluid" style="max-width: 220px;"></a>
-                            </div>
-                            <div class="text">
-                                <p>At SyllaGlobalEd Services, we're dedicated to helping students achieve their academic and career goals by providing personalized and professional assistance throughout their study abroad journey. </p>
-                                <p>Our mission is to simplify the complex process of international education and make it a seamless experience for our clients.</p>
-                            </div>
-                            <ul class="social-icon-one">
-                                <a href="http://facebook.com/share/pu55xiG3sM7mTgHG/?mibextid=LQQJ4d">
-                                    <span class="fa fa-facebook-f"></span>
-                                </a>
-                                <a href="http://instagram.com/syllaglobaledservices?igsh=MTA5dzk4bWp6bmZvNA%3D%3D">
-                                    <span class="fa fa-instagram" style="margin-left: 8px"></span>
-                                </a>
-                                <a href="http://tiktok.com/@syllaglobaledservices24?_t=8n8VlfhakRW&_r=1" style="margin-left: 8px">
-                                    <img src="{{ asset('images/tiktok.png') }}" alt="TikTok" style="width: 24px; height: 24px; filter: invert(26%) sepia(72%) saturate(6181%) hue-rotate(178deg) brightness(92%) contrast(92%);">
-                                </a>
-                                <a href="">
-                                    <span class="fa fa-youtube"></span>
-                                </a>
+                <!-- Contact Form Column -->
+                <div class="contact-form-column col-md-8 col-sm-12 col-xs-12">
+                    <h2 class="contact-title">Have an inquiry?</h2>
+                    
+                    <!-- Success/Error Messages -->
+                    @if(session('success'))
+                        <div class="alert alert-success" style="color: #fff; background-color: #28a745; padding: 10px; margin-bottom: 15px; border-radius: 4px;">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    @if(session('error'))
+                        <div class="alert alert-danger" style="color: #fff; background-color: #dc3545; padding: 10px; margin-bottom: 15px; border-radius: 4px;">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+
+                    @if($errors->any())
+                        <div class="alert alert-danger" style="color: #fff; background-color: #dc3545; padding: 10px; margin-bottom: 15px; border-radius: 4px;">
+                            <ul style="margin: 0; padding-left: 20px;">
+                                @foreach($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
                             </ul>
                         </div>
-                    </div>
-                </div>
+                    @endif
 
-                <!--University Column-->
-                <div class="footer-column col-md-4 col-sm-7 col-xs-12">
-                    <!--Links Widget-->
-                    <div class="footer-widget links-widget">
-                        <h2>Our Partners Universities</h2>
-                        <div class="widget-content">
-                            <div class="row clearfix">
-                                <div class="column col-md-5 col-sm-6 col-xs-12">
-                                    <ul class="footer-links">
-                                        <li><a href="#">IIUM</a></li>
-                                        <li><a href="#">SEGI UNIVERSITY</a></li>
-                                        <li><a href="#">GEOMATIKA</a></li>
-                                        <li><a href="#">IUKL</a></li>
-                                        <li><a href="#">APU</a></li>
-                                        <li><a href="#">UPM</a></li>
-                                        <li><a href="#">Univerti Malaya</a></li>
-                                        <li><a href="#">UNITEN</a></li>
-                                    </ul>
-                                </div>
-                                <div class="column col-md-7 col-sm-6 col-xs-12">
-                                    <ul class="footer-links">
-                                        <li><a href="#">UCSI</a></li>
-                                        <li><a href="#">TAYLORS</a></li>
-                                        <li><a href="#">UTM</a></li>
-                                        <li><a href="#">SUNWAY UNIVERSITY</a></li>
-                                        <li><a href="#">UniKL</a></li>
-                                    </ul>
-                                </div>
+                    <div class="contact-form">
+                        <form id="contact-form" method="POST" action="{{ route('enquiry.store') }}">
+                            @csrf
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Name" value="{{ old('name') }}" required>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Footer Column-->
-                <div class="footer-column col-md-4 col-sm-7 col-xs-12">
-                    <!--Links Widget-->
-                    <div class="footer-widget links-widget">
-                        <h2>Useful Links</h2>
-                        <div class="widget-content">
-                            <div class="row clearfix">
-                                <div class="column col-md-5 col-sm-6 col-xs-12">
-                                    <ul class="footer-links">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Courses</a></li>
-                                    </ul>
-                                </div>
-                                <div class="column col-md-7 col-sm-6 col-xs-12">
-                                    <ul class="footer-links">
-                                        <li><a href="#">FAQ’S</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Contact us</a></li>
-                                    </ul>
-                                </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Email" value="{{ old('email') }}" required>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" class="form-control" placeholder="Phone No." value="{{ old('phone') }}" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" class="form-control" placeholder="Message" rows="4" required>{{ old('message') }}</textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">SUBMIT</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -103,17 +97,14 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="column col-md-6 col-sm-6 col-xs-12">
-                    <div class="copyright">Copyright &copy; SyllaEdGlobal Services | All Right Reserved</div>
+                    <div class="copyright">Copyright &copy; SyllaGlobalEd Services | All Right Reserved</div>
                 </div>
                 <div class="column col-md-6 col-sm-6 col-xs-12">
                     <ul class="footer-nav">
-                        <li>Engineered by THIANA</li>
-                        {{-- <li><a href="#">Legal</a></li>
-                        <li><a href="#">Sitemap</a></li> --}}
+                        <li style="color: black;">Engineered by THIANA</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
 </footer>

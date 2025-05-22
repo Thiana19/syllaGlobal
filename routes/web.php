@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EnquiryController;
 
 Route::get('/', function () {
     return view('home');
@@ -8,7 +9,7 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('home');
-})->name('home');;
+})->name('home');
 
 Route::get('/contact-us', function () {
     return view('contact');
@@ -37,3 +38,9 @@ Route::get('/services', function () {
 Route::get('/courses', function () {
     return view('courses');
 })->name('courses');
+
+// Enquiry routes
+Route::post('/submit-enquiry', [EnquiryController::class, 'store'])->name('enquiry.store');
+Route::get('/view-enquiries', [EnquiryController::class, 'index'])->name('enquiries.index');
+Route::patch('/enquiries/{enquiry}/reply-status', [EnquiryController::class, 'updateReplyStatus'])->name('enquiries.update-reply');
+Route::delete('/enquiries/{enquiry}', [EnquiryController::class, 'destroy'])->name('enquiries.destroy');

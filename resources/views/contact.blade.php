@@ -28,7 +28,7 @@
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="column-inner">
                     <!-- Office Details -->
-                    <h2>Address</h2><br>
+                    <!-- <h2>Address</h2><br> -->
                     <ul class="info-list">
                         <li><span class="icon flaticon-placeholder-3"></span><strong>Address:</strong> NEU Suites, Jalan Ampang, 55000</li>
                         <li><span class="icon flaticon-telephone"></span><strong>Call Us:</strong><br> +60 17302 5968</li>

@@ -115,12 +115,13 @@
 
                 <!--Block-->
                 <li class="accordion block">
-                    <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-plus"></span> <span class="icon flaticon-minus flaticon-line"></span></div>Can students work in Malaysia after their studies?</div>
+                    <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus flaticon-plus"></span> <span class="icon flaticon-minus flaticon-line"></span></div>Can students work in Malaysia upon completion of their studies?</div>
                     <div class="acc-content">
                         <div class="content">
                             <div class="text">
-                                <p>International students are allowed to work 20 hours per week during study semester & 40 hours per week during semester break. Please note that students are required to obtain immigration permission for part-time work.
-                                    Can students work in Malaysia upon completion of their studies? – Students can apply for jobs in Malaysia and attend several interviews, our friendly lecturers and professors can support your application with recommendation letters, and if you are one of the talented students with demanded skills and good study achievements, that chance is there! However, your future employer must apply for a work permit with the authorities and guide you through the work permit regulations of Malaysia!</p>
+                                <p>Students can apply for jobs in Malaysia and attend several interviews, our friendly lectureres and professors can support your application with recommendation letters, and if you are one of the talented students with demanded skills and good study achievements, that chance is there!
+                                    However, your future employer must apply for a work permit with the authorities and guide you through the work permit regulations of Malaysia!
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -150,50 +151,6 @@
 
             </ul>
 
-        </div>
-    </section>
-
-
-    <section class="info-section">
-        <div class="auto-container">
-            <div class="inner-section">
-                <div class="row clearfix">
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-maps-and-flags"></span></div>
-                                <div class="title">Address : NEU Suites, Jalan Ampang,</div>
-                                <h2>KL 55000, Malaysia</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-6 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-phone-call"></span></div>
-                                <div class="title">Phone Number :</div>
-                                <h2>+60 17302 5968</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Info Block-->
-                    <div class="info-block col-md-4 col-sm-12 col-xs-12">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="icon-box"><span class="icon flaticon-chronometer-outline"></span></div>
-                                <div class="title">Opening Hours :</div>
-                                <h2>Mon - Fri: 8am - 5pm</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
     </section>
 @endsection
